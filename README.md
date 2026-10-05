@@ -51,5 +51,3 @@ Open an [issue](https://github.com/ersindevrim/FenixTechLog-releases/issues) her
 Fenix TechLog is closed-source freeware: see [LICENSE.txt](LICENSE.txt). Please link to this page rather than re-uploading the file.
 
 The MEL text is TechLog's own, written for simulation. Never use it for a real aircraft.
-
-Not affiliated with Fenix Simulations or Microsoft.
