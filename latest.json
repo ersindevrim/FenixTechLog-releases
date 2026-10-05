@@ -1,0 +1,16 @@
+{
+  "version": "0.4.0",
+  "released": "2026-10-05",
+  "notes": [
+    "A worn engine really pushes less: the autothrust adds N1, and fuel flow and EGT on the ECAM go up.",
+    "The cockpit as you left it: about 260 switches and knobs are put back into an aircraft found unpowered.",
+    "Brake temperatures come from the simulator and follow the ECAM WHEEL page.",
+    "TechLog tells you when a new version is out and can install it itself."
+  ],
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.4.0",
+  "installer": {
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.4.0/FenixTechLog-Setup-v0.4.0.exe",
+    "sha256": "0d2f59b1f827aa98306f057dd3fd3f8508b2e3182ed99c74585ba9a22c46a85e",
+    "size": 115547551
+  }
+}
