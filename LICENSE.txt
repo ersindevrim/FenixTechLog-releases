@@ -1,0 +1,35 @@
+FENIX TECHLOG - FREEWARE LICENCE
+
+Copyright (c) 2026 Fenix TechLog. All rights reserved.
+
+Fenix TechLog ("the Software") is free to download and use. By installing or using the Software you
+agree to these terms.
+
+1. Use
+   You may install and use the Software free of charge for flight simulation, including in streams,
+   videos and screenshots.
+
+2. Restrictions
+   Without written permission from Fenix TechLog you may not:
+   a. redistribute, re-upload, mirror or share the Software or its installer, other than by linking
+      to its official download page;
+   b. sell the Software, charge for it, or bundle it with any other product;
+   c. modify, decompile, disassemble or reverse engineer the Software, except as far as applicable law
+      expressly allows despite this restriction;
+   d. remove or change any copyright or licence notice.
+
+3. Third-party components
+   The Software includes third-party components licensed under their own terms, listed in
+   THIRD-PARTY-NOTICES.txt. For those components, their own licences apply.
+
+4. No affiliation
+   Fenix TechLog is an independent project. It is not affiliated with, or endorsed by, Fenix Simulations
+   or Microsoft. All trademarks belong to their owners.
+
+5. No warranty
+   The Software is provided "as is", without warranty of any kind, express or implied. Fenix TechLog is not
+   liable for any claim, damage or other liability arising from the Software or its use, including to
+   simulator installations, add-ons or saved data.
+
+6. Changes
+   These terms may change with future versions. The terms shipped with a version apply to that version.
