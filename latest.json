@@ -1,16 +1,16 @@
 {
-  "version": "0.4.0",
+  "version": "0.5.0",
   "released": "2026-10-05",
   "notes": [
-    "A worn engine really pushes less: the autothrust adds N1, and fuel flow and EGT on the ECAM go up.",
-    "The cockpit as you left it: about 260 switches and knobs are put back into an aircraft found unpowered.",
-    "Brake temperatures come from the simulator and follow the ECAM WHEEL page.",
-    "TechLog tells you when a new version is out and can install it itself."
+    "GSX services the aircraft in TechLog too: water, lavatory, catering and cleaning.",
+    "The level moves while GSX's vehicle is at the aircraft, and GSX finishing does the rest.",
+    "Catering and cabin cleaning are two new things to look after on the Service page.",
+    "The buttons on the Service page work as before, with or without GSX."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.4.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.5.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.4.0/FenixTechLog-Setup-v0.4.0.exe",
-    "sha256": "0d2f59b1f827aa98306f057dd3fd3f8508b2e3182ed99c74585ba9a22c46a85e",
-    "size": 115547551
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.5.0/FenixTechLog-Setup-v0.5.0.exe",
+    "sha256": "53b8d2d7606b6ed89af7611088e59af128750c6bcdde52ff1525c5574b804776",
+    "size": 115552159
   }
 }
