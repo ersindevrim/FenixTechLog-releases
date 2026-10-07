@@ -1,17 +1,17 @@
 {
-  "version": "0.5.1",
-  "released": "2026-10-06",
+  "version": "0.6.0",
+  "released": "2026-10-07",
   "notes": [
-    "Approach judgement rebuilt: heights are above the runway, so hills no longer make an approach unstable.",
-    "Gear and landing flap are due at 500 ft; set between 900 and 500 ft is \"configured late\" (5 points, not 15).",
-    "Sim rate multiplies wear: wear rate x5 at sim rate x2 wears parts as x10 while it lasts.",
-    "Wear rates are typed in, 1 to 100, and settings are saved together instead of once per click.",
-    "The page reads its live figures every second; a failure set in Fenix's own EFB is in the tech log within 2 seconds."
+    "Engines wear by how hard they work: takeoff thrust costs more than cruise, FLEX less than TOGA. Each engine now has fan, compressor, combustor, vane and turbine parts.",
+    "Each TOGA takeoff takes EGT margin off an engine, a FLEX takeoff much less, and a worn HP turbine takes more.",
+    "Snow and rain count as icing. Flying through icing with the wing or an engine anti-ice off wears slats, flaps and the engine; an engine run that way needs a fan ice inspection.",
+    "Timed checks and part jobs under realistic maintenance times finish while TechLog is closed, and the history shows when they really finished.",
+    "A landing in rain or snow wears brakes and tyres 15 % more; the Status page engine cards are redrawn."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.5.1",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.6.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.5.1/FenixTechLog-Setup-v0.5.1.exe",
-    "sha256": "1a82442ca50d79c490b3346d884843baecb1204a0e025840e0e139528d50b14c",
-    "size": 115558303
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.6.0/FenixTechLog-Setup-v0.6.0.exe",
+    "sha256": "0f151274cd128bc36508292e78bc732ae09348607eba892f400c8152004cfdf9",
+    "size": 115572639
   }
 }
