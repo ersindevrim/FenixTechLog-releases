@@ -1,17 +1,17 @@
 {
-  "version": "0.6.0",
+  "version": "0.7.0",
   "released": "2026-10-07",
   "notes": [
-    "Engines wear by how hard they work: takeoff thrust costs more than cruise, FLEX less than TOGA. Each engine now has fan, compressor, combustor, vane and turbine parts.",
-    "Each TOGA takeoff takes EGT margin off an engine, a FLEX takeoff much less, and a worn HP turbine takes more.",
-    "Snow and rain count as icing. Flying through icing with the wing or an engine anti-ice off wears slats, flaps and the engine; an engine run that way needs a fan ice inspection.",
-    "Timed checks and part jobs under realistic maintenance times finish while TechLog is closed, and the history shows when they really finished.",
-    "A landing in rain or snow wears brakes and tyres 15 % more; the Status page engine cards are redrawn."
+    "The new Planner shows whether an airframe is ready for its next flight and why, including checks, parts, defects and service needs.",
+    "The Planner shows what comes due next. Dates estimated from recent flying are marked as estimates.",
+    "Checks, part work and deferred-item fixes can be booked for a date and time. Work waits until the aircraft is parked and survives TechLog being closed.",
+    "The tablet page now has ten tabs and fits their labels on narrow screens.",
+    "TechLog connects to the Fenix gateway at 127.0.0.1 to avoid delays caused by localhost resolving to IPv6."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.6.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.6.0/FenixTechLog-Setup-v0.6.0.exe",
-    "sha256": "0f151274cd128bc36508292e78bc732ae09348607eba892f400c8152004cfdf9",
-    "size": 115572639
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.0/FenixTechLog-Setup-v0.7.0.exe",
+    "sha256": "f2586649c980b0ea8360256455885dc4e7e23a57189c7b3ab998f65dedb08b2e",
+    "size": 115595679
   }
 }
