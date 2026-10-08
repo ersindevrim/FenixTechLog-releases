@@ -1,15 +1,15 @@
 {
-  "version": "0.7.4",
+  "version": "0.7.5",
   "released": "2026-10-08",
   "notes": [
-    "A black Fenix EFB (brightness 0) is set to 37.5 % within about 5 seconds of Fenix's gateway answering: TechLog looks every 5 seconds for 30 seconds, with one last look at the end. A Settings switch turns it off.",
-    "TechLog started with the Fenix stops the moment the Fenix is unloaded, whatever is open. The starter looks every second.",
-    "The EFB repair no longer waits for the aircraft to be parked, and each look is written in the TechLog window."
+    "An engine run 10 minutes in icing with its own anti-ice off now gets a fan ice inspection that can be deferred (MEL category B, three days).",
+    "After 15 minutes in icing without that engine's anti-ice, the inspection must be done before the aircraft flies again. Before, 3 minutes grounded it.",
+    "Under 10 minutes there is no inspection item; the engine core still wears and the event is in the flight record."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.4",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.5",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.4/FenixTechLog-Setup-v0.7.4.exe",
-    "sha256": "4521d7967999cd9e19d2ff63a43e1a46259fe6867dec7314df3f5fe06af7b7fa",
-    "size": 115593631
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.5/FenixTechLog-Setup-v0.7.5.exe",
+    "sha256": "9940a798fc758d8b5edca23ffb48cd2954aafa2920c869be4a17f81e78531289",
+    "size": 115594143
   }
 }
