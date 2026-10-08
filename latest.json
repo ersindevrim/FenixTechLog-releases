@@ -1,17 +1,15 @@
 {
-  "version": "0.7.0",
-  "released": "2026-10-07",
+  "version": "0.7.1",
+  "released": "2026-10-08",
   "notes": [
-    "The new Planner shows whether an airframe is ready for its next flight and why, including checks, parts, defects and service needs.",
-    "The Planner shows what comes due next. Dates estimated from recent flying are marked as estimates.",
-    "Checks, part work and deferred-item fixes can be booked for a date and time. Work waits until the aircraft is parked and survives TechLog being closed.",
-    "The tablet page now has ten tabs and fits their labels on narrow screens.",
-    "TechLog connects to the Fenix gateway at 127.0.0.1 to avoid delays caused by localhost resolving to IPv6."
+    "Fixes a black EFB: the cockpit state feature could read the EFB brightness as 0 and write it back, so it is switched off for now.",
+    "TechLog no longer saves or writes back cockpit switches, knobs or display brightness. The Settings switch for it is gone.",
+    "TechLog makes no call to Fenix for 30 seconds after Fenix's gateway first answers, so Fenix has time to load."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.0/FenixTechLog-Setup-v0.7.0.exe",
-    "sha256": "f2586649c980b0ea8360256455885dc4e7e23a57189c7b3ab998f65dedb08b2e",
-    "size": 115595679
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.1/FenixTechLog-Setup-v0.7.1.exe",
+    "sha256": "b00b1b48701ac137ce7d21f4cb698914e29ed1f83133ddb2589990086d1ec249",
+    "size": 115587999
   }
 }
