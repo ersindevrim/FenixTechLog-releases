@@ -1,16 +1,15 @@
 {
-  "version": "0.7.3",
+  "version": "0.7.4",
   "released": "2026-10-08",
   "notes": [
-    "A Fenix EFB that loads black (its brightness reads 0, which Fenix does by itself on a second load of the aircraft) is set to 37.5 % once the aircraft is parked. A Settings switch turns it off.",
-    "Saved airframes can be removed from Settings, Airframes, after a confirmation.",
-    "The installer no longer stops for TechLog's starter while the sim is running.",
-    "The cockpit state feature stays removed."
+    "A black Fenix EFB (brightness 0) is set to 37.5 % within about 5 seconds of Fenix's gateway answering: TechLog looks every 5 seconds for 30 seconds, with one last look at the end. A Settings switch turns it off.",
+    "TechLog started with the Fenix stops the moment the Fenix is unloaded, whatever is open. The starter looks every second.",
+    "The EFB repair no longer waits for the aircraft to be parked, and each look is written in the TechLog window."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.3",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.4",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.3/FenixTechLog-Setup-v0.7.3.exe",
-    "sha256": "b991656b2a1587c81724b399e7e0613a2ab38dc47abd5047104f702351bdc68b",
-    "size": 115593119
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.4/FenixTechLog-Setup-v0.7.4.exe",
+    "sha256": "4521d7967999cd9e19d2ff63a43e1a46259fe6867dec7314df3f5fe06af7b7fa",
+    "size": 115593631
   }
 }
