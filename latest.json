@@ -1,15 +1,16 @@
 {
-  "version": "0.7.6",
-  "released": "2026-10-09",
+  "version": "0.8.0",
+  "released": "2026-10-10",
   "notes": [
-    "TechLog gives Fenix's EFB more room: it keeps away for 60 seconds while Fenix loads, then asks gently until Fenix answers quickly, and asks less often afterwards.",
-    "The fan ice inspection after icing without engine anti-ice now comes after 30 minutes (deferrable) and 60 minutes (NO-GO), not 10 and 15.",
-    "A restart of TechLog in cruise no longer starts the fuel at the outside air temperature and raises false cold fuel warnings."
+    "Auto maintenance (off by default): at local midnight, with the aircraft parked, due checks are done and low consumables are serviced. Open defects are left alone.",
+    "Defer to the latest date in one press, for one item or for every open item that may be deferred.",
+    "Share an airframe: export it to a sealed file with its parts, tech log, checks and flights, and import it on another PC. The saved airframes can be filtered and sorted.",
+    "A grouped Settings page in three columns, and coloured notices."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.7.6",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.8.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.7.6/FenixTechLog-Setup-v0.7.6.exe",
-    "sha256": "c25fdcf10b5b1f2e5775656f5733b67d0e4f446616b7c13209d3ea025ee24493",
-    "size": 115595167
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.8.0/FenixTechLog-Setup-v0.8.0.exe",
+    "sha256": "92c59b60ef4171aa8eec3358fce266f42112d5cb210718efdf2736e0c41f9a16",
+    "size": 115617183
   }
 }
