@@ -1,16 +1,16 @@
 {
-  "version": "0.8.0",
+  "version": "0.8.1",
   "released": "2026-10-10",
   "notes": [
-    "Auto maintenance (off by default): at local midnight, with the aircraft parked, due checks are done and low consumables are serviced. Open defects are left alone.",
-    "Defer to the latest date in one press, for one item or for every open item that may be deferred.",
-    "Share an airframe: export it to a sealed file with its parts, tech log, checks and flights, and import it on another PC. The saved airframes can be filtered and sorted.",
-    "A grouped Settings page in three columns, and coloured notices."
+    "Maintenance by Pilot or Airline. With Airline, the night shift stays and a Call maintenance button has the airline fix open and deferred items, NO-GO included, and renew worn parts after a flight.",
+    "The airline fixes from its shelf; a part it does not have is ordered and fitted on the day it arrives, shown as Parts ordered on the item.",
+    "Maintenance profiles for every airframe: Well maintained, Standard or Aging fleet, independent of age. A flown airframe can be given one at any time.",
+    "Sort the open and deferred items by category, ATA or due date, with cabin items in their own group, and a new card layout for the saved airframes."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.8.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.8.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.8.0/FenixTechLog-Setup-v0.8.0.exe",
-    "sha256": "92c59b60ef4171aa8eec3358fce266f42112d5cb210718efdf2736e0c41f9a16",
-    "size": 115617183
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.8.1/FenixTechLog-Setup-v0.8.1.exe",
+    "sha256": "e5289984f47ea4444b7c43986b7b51cb536a23283336fcacb3f9d91d9e102fff",
+    "size": 115631007
   }
 }
