@@ -1,16 +1,16 @@
 {
-  "version": "0.9.0",
+  "version": "0.9.1",
   "released": "2026-10-11",
   "notes": [
-    "Performance window on the Tech log page, with a Takeoff and a Landing tab. Both use Fenix's own calculators, so the figures are the ones its tablet gives.",
-    "Takeoff shows V1, VR, V2, flex or TOGA, flap, trim, the weight limit and the stop margin, with a runway drawing. Send to MCDU puts them on the PERF page.",
-    "Fixed: a part with 11% of its life left showed a full bar, which was the time left to carry the item. Both bars are now labelled, and a part item shows its own life.",
-    "Fixed: a well maintained aircraft had a worn-out cabin, because seat items ignored the maintenance profile."
+    "Units: Settings → Display now has Weight (kg or lb), Distance (metres or feet), Temperature (°C or °F) and Pressure (hPa or inHg).",
+    "The Performance window, the Flights and Service pages and the text TechLog writes follow them. In the Performance window the temperature and QNH are typed in the unit you chose.",
+    "TechLog still keeps and calculates in kg, metres, °C and hPa, and Fenix is asked in those. EGT, FLEX, speeds and heights are unchanged.",
+    "Fixed: the landing card on the Flights page showed the weight without a unit, and the centreline offset was always in metres."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.9.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.9.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.9.0/FenixTechLog-Setup-v0.9.0.exe",
-    "sha256": "6f3ef561c081adf13caf06df0227837a9daad8a9976a41d78402ef38f4882231",
-    "size": 115658143
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.9.1/FenixTechLog-Setup-v0.9.1.exe",
+    "sha256": "6a7635d95767186fca20c0ae824e9e1c361c50091ad7444d729a716e49df78c1",
+    "size": 115663263
   }
 }
