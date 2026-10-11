@@ -1,16 +1,16 @@
 {
-  "version": "0.8.1",
-  "released": "2026-10-10",
+  "version": "0.9.0",
+  "released": "2026-10-11",
   "notes": [
-    "Maintenance by Pilot or Airline. With Airline, the night shift stays and a Call maintenance button has the airline fix open and deferred items, NO-GO included, and renew worn parts after a flight.",
-    "The airline fixes from its shelf; a part it does not have is ordered and fitted on the day it arrives, shown as Parts ordered on the item.",
-    "Maintenance profiles for every airframe: Well maintained, Standard or Aging fleet, independent of age. A flown airframe can be given one at any time.",
-    "Sort the open and deferred items by category, ATA or due date, with cabin items in their own group, and a new card layout for the saved airframes."
+    "Performance window on the Tech log page, with a Takeoff and a Landing tab. Both use Fenix's own calculators, so the figures are the ones its tablet gives.",
+    "Takeoff shows V1, VR, V2, flex or TOGA, flap, trim, the weight limit and the stop margin, with a runway drawing. Send to MCDU puts them on the PERF page.",
+    "Fixed: a part with 11% of its life left showed a full bar, which was the time left to carry the item. Both bars are now labelled, and a part item shows its own life.",
+    "Fixed: a well maintained aircraft had a worn-out cabin, because seat items ignored the maintenance profile."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.8.1",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.9.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.8.1/FenixTechLog-Setup-v0.8.1.exe",
-    "sha256": "e5289984f47ea4444b7c43986b7b51cb536a23283336fcacb3f9d91d9e102fff",
-    "size": 115631007
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.9.0/FenixTechLog-Setup-v0.9.0.exe",
+    "sha256": "6f3ef561c081adf13caf06df0227837a9daad8a9976a41d78402ef38f4882231",
+    "size": 115658143
   }
 }
