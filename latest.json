@@ -1,16 +1,17 @@
 {
-  "version": "0.9.1",
-  "released": "2026-10-11",
+  "version": "1.0.0",
+  "released": "2026-10-13",
   "notes": [
-    "Units: Settings → Display now has Weight (kg or lb), Distance (metres or feet), Temperature (°C or °F) and Pressure (hPa or inHg).",
-    "The Performance window, the Flights and Service pages and the text TechLog writes follow them. In the Performance window the temperature and QNH are typed in the unit you chose.",
-    "TechLog still keeps and calculates in kg, metres, °C and hPa, and Fenix is asked in those. EGT, FLEX, speeds and heights are unchanged.",
-    "Fixed: the landing card on the Flights page showed the weight without a unit, and the centreline offset was always in metres."
+    "A menu rail on the left replaces the bottom tabs. Performance is now its own page with METAR, TAF, Send to MCDU and recent calculations.",
+    "Every flight has a Report tab: the condition of each part before and after, and what aged or broke.",
+    "Help has a start-here page, tasks, a guide and a glossary. Optional: the airline can use the aircraft while you are away.",
+    "Fairer scoring: one landing penalty, warm-up and cool-down scored once per flight, a clearer overspeed rule. Landing damage is stronger. Icing is removed.",
+    "TechLog asks Fenix less often, and a click in its window can no longer freeze the flight recording."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v0.9.1",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v1.0.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v0.9.1/FenixTechLog-Setup-v0.9.1.exe",
-    "sha256": "6a7635d95767186fca20c0ae824e9e1c361c50091ad7444d729a716e49df78c1",
-    "size": 115663263
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v1.0.0/FenixTechLog-Setup-v1.0.0.exe",
+    "sha256": "b5d5266966a8c3b703337c17c9a74b2dbab310346e0cedec8d2a1f313f5f5125",
+    "size": 115802527
   }
 }
