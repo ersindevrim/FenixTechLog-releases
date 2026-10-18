@@ -1,15 +1,16 @@
 {
-  "version": "1.1.0",
-  "released": "2026-10-14",
+  "version": "1.2.0",
+  "released": "2026-10-18",
   "notes": [
-    "Optional beta, off by default: the cockpit switches are saved while parked and put back into an aircraft found unpowered. Nothing of the EFB and no brightness is ever saved or written.",
-    "New Accessibility panel in Settings: text size in the app, a plain font, high contrast, bold text, large buttons and fields, reduce motion.",
-    "Not seen in the sim yet: the restore itself and the Accessibility panel on the sim's tablet."
+    "SimBrief: import your latest flight plan from Settings. New Brief page, a Plan tab on each flight, plan advice in the Planner, and plan figures on Perf and Service.",
+    "New Cockpit page: save your switches, see them against the live cockpit, and put them back (panel by panel or all). Nothing is read in the background any more.",
+    "Includes 1.1.1: a deferred start valve lets go of the Fenix failure, so the ground crew's manual start works.",
+    "Not seen in the sim yet: the Cockpit restore, TechLog's own request to simbrief.com, and the new pages on the sim's tablet."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v1.1.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v1.2.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v1.1.0/FenixTechLog-Setup-v1.1.0.exe",
-    "sha256": "0ac702a18d0a7046027457021bfe92bfc28ec6feb77e378add9909af425a7522",
-    "size": 115815839
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v1.2.0/FenixTechLog-Setup-v1.2.0.exe",
+    "sha256": "4e78dd28a33175ff97ca7e17a31c13eec97d8ddbe01e8c3537af2eb32e806b20",
+    "size": 115902367
   }
 }
