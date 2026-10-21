@@ -1,16 +1,16 @@
 {
-  "version": "1.3.0",
-  "released": "2026-10-20",
+  "version": "2.0.0",
+  "released": "2026-10-21",
   "notes": [
-    "TechLog now works in MSFS 2020 as well as MSFS 2024, with the Fenix A319, A320 and A321. One download, the same tech log in both sims.",
-    "MSFS 2020 has no EFB apps: open the page in a browser on the PC (address in the TechLog window). In MSFS 2024 nothing changes.",
-    "Brake temperatures are worked out from the braking in MSFS 2020, which does not give them. Start with the sim now covers 2020 too.",
-    "Checked against a running MSFS 2020 with the Fenix: connection, flight data, gateway and all 252 cockpit switches. Not seen yet: a whole flight in 2020."
+    "TechLog now works with Fenix Version 3 (3.0.0.7426). The failures Fenix V3 renamed or removed (IDG oil, brakes, nose tyres, TCAS, FCDC) use V3's names again.",
+    "Brakes are tracked wheel by wheel: carbon oxidation, release mechanism and piston seals, aged by hot brakes, plus the brake valves, tachometers, fans and indicators. New parts for IDG oil level and filter, cabin systems (CIDS), water and waste, zone trim and skin air valves, and engine oil pressure switches.",
+    "A failed valve that is deferred under the MEL is shown secured open or closed in the Fenix. Settings now has a Fix button that puts TechLog's tablet app back in the Community folder after an update removes it.",
+    "Checked against a running Fenix V3 (data link, all cockpit switches, the takeoff and landing calculators). Not seen yet: a whole flight on V3 and the new failures set in the Fenix."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v1.3.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.0.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v1.3.0/FenixTechLog-Setup-v1.3.0.exe",
-    "sha256": "d0f4038c50a364f604f8bd2eb6269b9e3acea474fdcf9233f2a05613cf501611",
-    "size": 115903903
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.0.0/FenixTechLog-Setup-v2.0.0.exe",
+    "sha256": "113e60a93f56e5d937c9f9f371e4a614580426aa207bd78959fc87e724b0fe34",
+    "size": 115916703
   }
 }
