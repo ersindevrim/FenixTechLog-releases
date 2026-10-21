@@ -1,16 +1,15 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "released": "2026-10-21",
   "notes": [
-    "TechLog now works with Fenix Version 3 (3.0.0.7426). The failures Fenix V3 renamed or removed (IDG oil, brakes, nose tyres, TCAS, FCDC) use V3's names again.",
-    "Brakes are tracked wheel by wheel: carbon oxidation, release mechanism and piston seals, aged by hot brakes, plus the brake valves, tachometers, fans and indicators. New parts for IDG oil level and filter, cabin systems (CIDS), water and waste, zone trim and skin air valves, and engine oil pressure switches.",
-    "A failed valve that is deferred under the MEL is shown secured open or closed in the Fenix. Settings now has a Fix button that puts TechLog's tablet app back in the Community folder after an update removes it.",
-    "Checked against a running Fenix V3 (data link, all cockpit switches, the takeoff and landing calculators). Not seen yet: a whole flight on V3 and the new failures set in the Fenix."
+    "A used airframe now starts with less worn parts: no part begins more than 80 % through its life (70 % for tyres and brakes), spread by the aircraft's age, so a fault comes from flying it. Airframes you already have are not changed.",
+    "The saved cockpit now includes the EVAC \"CAPT & PURS / CAPT\" selector (its own EVAC panel on the Cockpit page), A/SKID & N/W STRG, the transponder ATC SYS selector and the two chart-light toggles: 257 switches in 25 panels.",
+    "Every switch name the cockpit list already had exists in Fenix V3, so nothing was renamed. Not seen yet: the new switches read and restored against a running V3."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.0.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.0.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.0.0/FenixTechLog-Setup-v2.0.0.exe",
-    "sha256": "113e60a93f56e5d937c9f9f371e4a614580426aa207bd78959fc87e724b0fe34",
-    "size": 115916703
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.0.1/FenixTechLog-Setup-v2.0.1.exe",
+    "sha256": "d30ffc429f15d18729c7af1017c73771f08fc0578c45f9ad1d2b27212607041c",
+    "size": 115917215
   }
 }
