@@ -4,8 +4,7 @@
   "notes": [
     "The Cabin page has a new Systems tab for Fenix V3: the aircraft with each door and slide, the water and waste tanks, the cabin temperature, lavatories and signs, with buttons for the cabin lights and the water pre-select, the two cabin values Fenix accepts. Water and waste now follow Fenix's own tanks.",
     "Flights that were left open can now be deleted, and a new option in Settings minimises TechLog's window to the system tray.",
-    "Fixes for Fenix V3: TechLog finds Fenix's systems program again (it moved to depssystems) and uses the V3 failure list it ships, so the start-up lines saying V3 failures are \"log-only\" go away.",
-    "Not seen yet: the cabin buttons pressed against a running Fenix, and the tray icon on screen."
+    "Fixes for Fenix V3: TechLog finds Fenix's systems program again (it moved to depssystems) and uses the V3 failure list it ships, so the start-up lines saying V3 failures are \"log-only\" go away."
   ],
   "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.0",
   "installer": {
