@@ -1,15 +1,16 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "released": "2026-10-22",
   "notes": [
-    "The Cabin page has a new Systems tab for Fenix V3: the aircraft with each door and slide, the water and waste tanks, the cabin temperature, lavatories and signs, with buttons for the cabin lights and the water pre-select, the two cabin values Fenix accepts. Water and waste now follow Fenix's own tanks.",
-    "Flights that were left open can now be deleted, and a new option in Settings minimises TechLog's window to the system tray.",
-    "Fixes for Fenix V3: TechLog finds Fenix's systems program again (it moved to depssystems) and uses the V3 failure list it ships, so the start-up lines saying V3 failures are \"log-only\" go away."
+    "Used airframes arrive with fewer items: a 10-year-old aircraft has about five open items instead of ten, and it never arrives with a pressurisation, bleed, gear or brake fault already failed.",
+    "Part condition follows the aircraft's age, and older used airframes are brought to it once when they load; the wear you have flown stays.",
+    "Reseeding an airframe now gives the same livery a different set of worn parts and failures.",
+    "The CIDS units follow the variant, so the A319 no longer lists units it does not have."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.0/FenixTechLog-Setup-v2.1.0.exe",
-    "sha256": "9daa7b8d79288e13cd01ce2a025a7049066049ea3ef27ae73ef99de0bbec6407",
-    "size": 115933599
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.1/FenixTechLog-Setup-v2.1.1.exe",
+    "sha256": "83385a63ce5e49a05f553c6ee3115e22a34e226ebdf98eebb80b19385dbcce29",
+    "size": 115934623
   }
 }
