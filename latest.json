@@ -1,15 +1,16 @@
 {
-  "version": "2.0.1",
-  "released": "2026-10-21",
+  "version": "2.1.0",
+  "released": "2026-10-22",
   "notes": [
-    "A used airframe now starts with less worn parts: no part begins more than 80 % through its life (70 % for tyres and brakes), spread by the aircraft's age, so a fault comes from flying it. Airframes you already have are not changed.",
-    "The saved cockpit now includes the EVAC \"CAPT & PURS / CAPT\" selector (its own EVAC panel on the Cockpit page), A/SKID & N/W STRG, the transponder ATC SYS selector and the two chart-light toggles: 257 switches in 25 panels.",
-    "Every switch name the cockpit list already had exists in Fenix V3, so nothing was renamed. Not seen yet: the new switches read and restored against a running V3."
+    "The Cabin page has a new Systems tab for Fenix V3: the aircraft with each door and slide, the water and waste tanks, the cabin temperature, lavatories and signs, with buttons for the cabin lights and the water pre-select, the two cabin values Fenix accepts. Water and waste now follow Fenix's own tanks.",
+    "Flights that were left open can now be deleted, and a new option in Settings minimises TechLog's window to the system tray.",
+    "Fixes for Fenix V3: TechLog finds Fenix's systems program again (it moved to depssystems) and uses the V3 failure list it ships, so the start-up lines saying V3 failures are \"log-only\" go away.",
+    "Not seen yet: the cabin buttons pressed against a running Fenix, and the tray icon on screen."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.0.1",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.0.1/FenixTechLog-Setup-v2.0.1.exe",
-    "sha256": "d30ffc429f15d18729c7af1017c73771f08fc0578c45f9ad1d2b27212607041c",
-    "size": 115917215
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.0/FenixTechLog-Setup-v2.1.0.exe",
+    "sha256": "9daa7b8d79288e13cd01ce2a025a7049066049ea3ef27ae73ef99de0bbec6407",
+    "size": 115933599
   }
 }
