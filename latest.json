@@ -1,16 +1,14 @@
 {
-  "version": "2.1.1",
+  "version": "2.1.2",
   "released": "2026-10-22",
   "notes": [
-    "Used airframes arrive with fewer items: a 10-year-old aircraft has about five open items instead of ten, and it never arrives with a pressurisation, bleed, gear or brake fault already failed.",
-    "Part condition follows the aircraft's age, and older used airframes are brought to it once when they load; the wear you have flown stays.",
-    "Reseeding an airframe now gives the same livery a different set of worn parts and failures.",
-    "The CIDS units follow the variant, so the A319 no longer lists units it does not have."
+    "Airports and runways are logged again on Fenix V3: TechLog now reads V3's Navigraph navigation database, so flights no longer lose their departure and destination.",
+    "The navigation database check follows the V3 cycle and its end date."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.1",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.2",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.1/FenixTechLog-Setup-v2.1.1.exe",
-    "sha256": "83385a63ce5e49a05f553c6ee3115e22a34e226ebdf98eebb80b19385dbcce29",
-    "size": 115934623
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.2/FenixTechLog-Setup-v2.1.2.exe",
+    "sha256": "324b24d5929a3f264b9685e235c4ac30312ad8beaed45ddde827c2801f153a68",
+    "size": 115936159
   }
 }
