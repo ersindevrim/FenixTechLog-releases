@@ -1,14 +1,16 @@
 {
-  "version": "2.1.2",
-  "released": "2026-10-22",
+  "version": "2.2.0",
+  "released": "2026-10-23",
   "notes": [
-    "Airports and runways are logged again on Fenix V3: TechLog now reads V3's Navigraph navigation database, so flights no longer lose their departure and destination.",
-    "The navigation database check follows the V3 cycle and its end date."
+    "A TechLog icon on Fenix's own EFB tablet in the cockpit, and on a tablet or phone on your network at your PC's address, port 8083 (Settings → Fenix and the sim).",
+    "Engine oil quantity, pressure and temperature are read from Fenix V3, with new limits for oil temperature, oil pressure, engine vibration and cabin overpressure.",
+    "The Status page shows what Fenix reports: hydraulics, batteries, EPR and N1 limits, cabin pressure and bleed.",
+    "Easier to use on the sim's tablet: no more squares in place of symbols, drag to scroll, and drawings and layouts that fit at any text size."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.1.2",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.2.0",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.1.2/FenixTechLog-Setup-v2.1.2.exe",
-    "sha256": "324b24d5929a3f264b9685e235c4ac30312ad8beaed45ddde827c2801f153a68",
-    "size": 115936159
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.2.0/FenixTechLog-Setup-v2.2.0.exe",
+    "sha256": "a8a040cb8b9925f2234686f020b5219f474897a699337dc0fca8786896ce5a3f",
+    "size": 115979679
   }
 }
