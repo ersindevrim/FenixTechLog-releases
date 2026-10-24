@@ -1,16 +1,16 @@
 {
-  "version": "2.2.0",
-  "released": "2026-10-23",
+  "version": "2.2.1",
+  "released": "2026-10-24",
   "notes": [
-    "A TechLog icon on Fenix's own EFB tablet in the cockpit, and on a tablet or phone on your network at your PC's address, port 8083 (Settings → Fenix and the sim).",
-    "Engine oil quantity, pressure and temperature are read from Fenix V3, with new limits for oil temperature, oil pressure, engine vibration and cabin overpressure.",
-    "The Status page shows what Fenix reports: hydraulics, batteries, EPR and N1 limits, cabin pressure and bleed.",
-    "Easier to use on the sim's tablet: no more squares in place of symbols, drag to scroll, and drawings and layouts that fit at any text size."
+    "Cockpit profiles: save as many named cockpits as you like, restore any of them on any airframe, and pick the one put back on a cold and dark load.",
+    "Engine oil from Fenix no longer shows NO-GO at its normal level: TechLog takes 23 qt as full with a 10 qt dispatch minimum.",
+    "The installer's 'Start when a Fenix is loaded' box is unticked by default, with a note for slow loading.",
+    "The Fenix EFB options in Settings are marked Beta; putting the cockpit back as you left it no longer is."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.2.0",
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.2.1",
   "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.2.0/FenixTechLog-Setup-v2.2.0.exe",
-    "sha256": "a8a040cb8b9925f2234686f020b5219f474897a699337dc0fca8786896ce5a3f",
-    "size": 115979679
+    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.2.1/FenixTechLog-Setup-v2.2.1.exe",
+    "sha256": "b07ef21d7253d51d08e65db0c33bc4e7960de35049f0f1b9be4ad1ca69eb84f5",
+    "size": 115987359
   }
 }
