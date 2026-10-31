@@ -1,16 +1,9 @@
 {
-  "version": "2.2.1",
-  "released": "2026-10-24",
+  "version": "2.2.2",
+  "released": "2026-10-31",
   "notes": [
-    "Cockpit profiles: save as many named cockpits as you like, restore any of them on any airframe, and pick the one put back on a cold and dark load.",
-    "Engine oil from Fenix no longer shows NO-GO at its normal level: TechLog takes 23 qt as full with a 10 qt dispatch minimum.",
-    "The installer's 'Start when a Fenix is loaded' box is unticked by default, with a note for slow loading.",
-    "The Fenix EFB options in Settings are marked Beta; putting the cockpit back as you left it no longer is."
+    "Fenix TechLog is now TechLog, one app for all your aircraft. This app gets no more updates.",
+    "Open the Release page for the download link. The setup brings your airframes, flights and defects across."
   ],
-  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.2.1",
-  "installer": {
-    "url": "https://github.com/ersindevrim/FenixTechLog-releases/releases/download/v2.2.1/FenixTechLog-Setup-v2.2.1.exe",
-    "sha256": "b07ef21d7253d51d08e65db0c33bc4e7960de35049f0f1b9be4ad1ca69eb84f5",
-    "size": 115987359
-  }
+  "page": "https://github.com/ersindevrim/FenixTechLog-releases/releases/tag/v2.2.2"
 }
